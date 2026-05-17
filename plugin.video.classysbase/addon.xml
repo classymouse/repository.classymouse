@@ -13,8 +13,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <reuselanguageinvoker>false</reuselanguageinvoker>
-    <summary lang="en">Classy's Base — curated media, clean code</summary>
-    <description lang="en">Clean, fast access to Chains' curated media playlists.</description>
+    <summary lang="en">A ready-to-fork Kodi video addon — bring your own playlists, artwork and colours</summary>
+    <description lang="en">Classy's Base is a clean, lightweight Kodi video addon shell. Fork it, swap in your own playlists, change the artwork and colours, and you have a fully branded addon — no boilerplate to write from scratch.</description>
     <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
