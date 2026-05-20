@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-  <addon id="plugin.video.classysbase" name="Classy's Base" version="1.0.4" provider-name="Classy">
-    <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" />
-      <import addon="script.module.resolveurl" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <reuselanguageinvoker>false</reuselanguageinvoker>
-      <summary lang="en">A ready-to-fork Kodi video addon — bring your own playlists, artwork and colours</summary>
-      <description lang="en">Classy's Base is a clean, lightweight Kodi video addon shell. Fork it, swap in your own playlists, change the artwork and colours, and you have a fully branded addon — no boilerplate to write from scratch.</description>
-      <platform>all</platform>
-      <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-      </assets>
-    </extension>
-  </addon>
+  <addon id="plugin.video.classysbase" name="Classy's Base" version="1.0.5" provider-name="Classy">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.resolveurl" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <summary lang="en">A ready-to-fork Kodi video addon — bring your own playlists, artwork and colours</summary>
+    <description lang="en">Classy's Base is a clean, lightweight Kodi video addon shell. Fork it, swap in your own playlists, change the artwork and colours, and you have a fully branded addon — no boilerplate to write from scratch.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
   <addon id="repository.classymouse" name="Classymouse Repository" version="1.0.2" provider-name="Classy">
       <extension point="xbmc.addon.repository" name="Classymouse Repository">
           <dir>
