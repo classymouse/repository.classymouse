@@ -1,0 +1,31 @@
+v1.0.5 (2026-05-20)
+- Added full TMDB collection poster artwork to all XML catalog _index.xml files
+- Added boxset_collection.png and actor_collection.png local artwork fallbacks
+- config.json is now gitignored; config.json.dist template added for forks
+- Added changelog viewer to Tools & Settings menu
+
+v1.0.4 (2026-05-01)
+- XML catalog entries now expand inline in the main menu (no extra folder)
+- Remote XML browser: subtitle-strip fallback for collection search
+- fix_index_art.py tool: batch TMDB artwork updater for all catalog trees
+
+v1.0.3 (2026-04-15)
+- Trakt: mark episode/season/show watched or unwatched from context menu
+- TMDB person pages with full filmography and headshots
+- Browse seasons and episodes for TV shows
+
+v1.0.2 (2026-04-01)
+- Sources dialog: multiple links per item shown with labels
+- Scraper progress indicator
+- Color picker for UI accent colours in settings
+
+v1.0.1 (2026-03-15)
+- Trakt authentication (device code flow with QR code)
+- Remote XML browser: navigate catalog from thechains24.com
+- Local playlist browser
+
+v1.0.0 (2026-03-01)
+- Initial release
+- Config-driven main menu (playlists from config.json or remote URL)
+- TMDB metadata lookup
+- Tools & Settings submenu

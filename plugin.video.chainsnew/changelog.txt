@@ -1,0 +1,109 @@
+v1.0.9 (2026-05-22) — TMDB Pagination
+
+  - Added pagination for TMDB browse modes (company movies, genre listings)
+  - Consistent "Next Page" UX across both XML and TMDB content
+  - Better navigation for large TMDB catalogs
+
+v1.0.8 (2026-05-22) — Pagination Update
+
+  - Added pagination for large XML playlists (25 items per page)
+  - Added global lang() helper for cleaner localization
+  - Fixed string formatting in pagination display
+  - Improved browsing performance for large lists
+
+v1.0.0 (2026-05-20) — Initial Public Release
+
+THE CHAINS — Official Changelog
+"Bound by content. Driven by community."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MAJOR RELEASE OVERVIEW
+
+Welcome to the first official public build of The Chains addon —
+rebuilt from the ground up using Classy's custom base engine for
+improved stability, scalability, and long-term development support.
+
+This release focuses on:
+  - Faster navigation
+  - Improved artwork handling
+  - Modular content structure
+  - Remote configuration support
+  - Better metadata integration
+  - Cleaner backend architecture
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NEW FEATURES
+
+Brand New Core Engine
+  - Full migration to Classy's Base Engine
+  - Rewritten framework for future expansion
+  - Improved compatibility with newer Kodi versions
+  - Cleaner routing and module handling
+  - Optimized startup performance
+
+Full XML Artwork Catalog
+  - Complete XML catalog integration across all 10 content trees
+  - Improved fanart, posters, banners, and landscape artwork loading
+  - Faster artwork caching
+  - More consistent UI presentation throughout the addon
+  Supported content areas:
+    Movies, TV Shows, One Click, Documentaries, Anime,
+    Wrestling, Reality TV, Kids Content, Music, Special Collections
+
+Trakt Integration
+  - Native Trakt synchronization support
+  - Improved watch history tracking
+  - Collection syncing enabled
+  - Better progress/resume support
+  - Faster account authorization handling
+
+Remote Configuration System
+  - Live remote configs via thechains24.com
+  - Dynamic menu updates without full addon updates
+  - Emergency fixes and remote maintenance controls
+  - Future live announcements/events support
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PERFORMANCE IMPROVEMENTS
+
+  - Reduced loading times across menus
+  - Improved API request handling
+  - Cleaner provider management
+  - Reduced memory overhead
+  - Better support for modern Kodi builds
+  - More stable navigation system
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UPCOMING FEATURES (IN DEVELOPMENT)
+
+  - Enhanced One Click engine
+  - Expanded metadata support
+  - New UI layouts
+  - Additional provider integrations
+  - Improved Debrid handling
+  - Advanced caching system
+  - Custom homepage sections
+  - Community requested features
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SPECIAL THANKS
+
+Huge thanks to everyone supporting The Chains project and helping
+test early builds.
+
+Special collaboration credit:
+  Classy — for the base engine development and backend collaboration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMPORTANT NOTES
+
+  - Fresh install recommended for best experience
+  - Older builds/settings may cause conflicts
+  - Ensure latest ResolveURL dependencies are installed
+  - Trakt re-authentication may be required after updating
