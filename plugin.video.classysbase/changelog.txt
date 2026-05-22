@@ -1,3 +1,10 @@
+v1.0.6 (2026-05-22)
+- Added unified filter pipeline: clean, modular source filtering system
+- New filters: Exclude HEVC/H.265, 3D releases, CAM/TS rips
+- Settings: New "Filters" category with encoding/content filters
+- Architecture: Single entry point (filter_sources) with modular filter functions
+- Performance: Cheap filters first (string checks), expensive last (API calls)
+
 v1.0.5 (2026-05-20)
 - Added full TMDB collection poster artwork to all XML catalog _index.xml files
 - Added boxset_collection.png and actor_collection.png local artwork fallbacks
