@@ -1,3 +1,9 @@
+v1.0.13 (2026-05-25)
+- Critical bug fix for FireOS devices
+  * Fixed syntax error in local_browser.py line 247 (if/elif on same line)
+  * Header script had corrupted code during UTF-8 header addition
+  * Restores XML browsing functionality on Fire TV devices
+
 v1.0.12 (2026-05-25)
 - Bug fixes and improvements
   * Fixed default poster fallback for missing artwork
