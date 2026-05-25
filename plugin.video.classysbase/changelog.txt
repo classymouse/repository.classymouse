@@ -1,3 +1,30 @@
+v1.0.12 (2026-05-25)
+- Bug fixes and improvements
+  * Fixed default poster fallback for missing artwork
+  * Fixed sources dialog poster display
+  * Improved search result layout and spacing
+
+v1.0.11 (2026-05-24)
+- Added Unified Search feature: search all sources simultaneously
+  * Concurrent search: Trakt Movies, Trakt Shows, TMDB Movies/Shows/Collections, Remote XML
+  * Custom WindowXMLDialog with three result sections
+  * Click actions: movies → scrape, shows → seasons, collections → browse
+  * ThreadPoolExecutor with 5 concurrent workers for performance
+  * TMDB ID deduplication prevents duplicate results
+  * Main menu: Search (orange, always visible)
+  * Empty state messages for each section
+- Architecture: search.py, searchdialog.py, searchdialog.xml
+- Router integration: mode='search' with keyboard input dialog
+
+v1.0.10 (2026-05-24)
+- Fixed cancel dialog behavior: no error popup when closing sources dialog
+- Added "Remove watched items" filter: hides watched content from all browse modes
+- Added "Show Collections" toggle: hides collection folders when disabled
+- Made "Connect Trakt" message clickable: opens QR code authorization dialog
+- Trakt integration: remove_watched filter checks Trakt watched status for movies/episodes
+- Collection detection: filters folder labels ending with "Collection"
+- Settings: New browse options in Browse category (remove_watched, show_collections)
+
 v1.0.6 (2026-05-22)
 - Added unified filter pipeline: clean, modular source filtering system
 - New filters: Exclude HEVC/H.265, 3D releases, CAM/TS rips
