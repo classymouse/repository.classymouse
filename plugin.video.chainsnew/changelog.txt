@@ -1,3 +1,16 @@
+v1.1.6 (2026-05-26) — Critical Playback Fix
+
+  - Critical playback fix: Added IsPlayable property to all playable ListItems
+    * Prevents handle=-1 bug that caused silent playback failure
+    * Fixed for episodes, movies, and all playable content
+  - Sources dialog: Added ACTION_SELECT handling for Enter key and mouse clicks
+  - Auto-loop: Sequentially tries sources until cached torrent found (progress dialog)
+  - Artwork improvements:
+    * Added fallback poster/fanart for items with missing artwork
+    * Unreleased movies now show "(not released)" suffix
+    * Missing release dates treated as unreleased
+  - Codebase fully synced with classysbase addon
+
 v1.1.4 (2026-05-25) — Critical FireOS Fix
 
   - Critical bug fix for FireOS devices:
