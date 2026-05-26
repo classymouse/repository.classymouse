@@ -1,3 +1,25 @@
+v1.1.9 (2026-05-26) — Critical datetime fix
+
+  - Fixed 'NoneType' object is not callable error on Shield/Android
+    * Moved datetime import from function-level to top-level
+    * Prevents import conflicts on Android devices
+    * Fixes TV show season browsing errors
+
+v1.1.8 (2026-05-26) — Production Ready
+
+  - Fixed TMDB auto-expand navigation:
+    * Genre/collection/list/company/person sections now auto-expand properly
+    * Detects sections with <tmdb> tags and routes to TMDB browser
+    * Mirrors working local_browser logic for remote XML
+  - TMDB API key now loads from remote config as fallback
+    * Priority: User setting → Remote config → Empty
+    * End users get Chains' API key automatically
+  - Cleaned playlists array in config.json
+    * Single unified catalog menu via xml_catalog_url
+    * No duplicate sections
+  - Fixed log file naming (chainsnew.log)
+  - Ready for end-user deployment
+
 v1.1.6 (2026-05-26) — Critical Playback Fix
 
   - Critical playback fix: Added IsPlayable property to all playable ListItems

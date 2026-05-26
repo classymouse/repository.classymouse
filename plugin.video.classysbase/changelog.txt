@@ -1,3 +1,10 @@
+v1.0.18 (2026-05-26)
+- Critical datetime fix for Shield/Android devices
+  * Fixed 'NoneType' object is not callable error
+  * Moved datetime import from function-level to top-level
+  * Prevents import conflicts on Android devices
+  * Fixes TV show season browsing errors
+
 v1.0.15 (2026-05-26)
 - Critical playback fix: Added IsPlayable property to all playable ListItems
   * Prevents handle=-1 bug that caused silent playback failure
